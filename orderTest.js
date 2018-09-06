@@ -1,7 +1,7 @@
 // Frank Anastasia 
 // Test first approach based on order.js 
 
-function orderTotal() {
+function orderTotal(order) {
 	return order.items.reduce((prev, cur) => cur.price * (cur.quanitity || 1) + prev, 0)
 }
 
