@@ -10,7 +10,6 @@ var animals = [
 { name: 'Fuzzy',  species: 'cat'}
 ]
 
-
 // decoupled 
 var isDog = function(animal) {
 	return animal.species === 'dogs'
@@ -21,3 +20,9 @@ var isDog = function(animal) {
 // expect true or false if it should be in the new array
 // returns new filtered array 
 var dogs = animals.filter(isDog)
+
+// map function on array object 
+// takes a callback function to return any object 
+var names = animals.map(function(animal) {
+	return animal.name 
+})
