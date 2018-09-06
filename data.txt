@@ -1,0 +1,6 @@
+Emma Pooper	noodle dish	4	3
+Emma Pooper	ice cream	7	2
+Emma Pooper	oil free	50	9
+Papa Francu	avocado	2	10
+Papa Francu	cashew	6	8
+Papa Francu	pizza	12	86
